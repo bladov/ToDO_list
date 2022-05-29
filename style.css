@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: linear-gradient(45deg,rgb(13, 216, 189), rgb(237, 253, 6));
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    padding-top: 100px;
+}
+
+.todo { 
+}
+
+.title {
+    text-align: center;
+}
+
+.create__text {
+    padding: 5px;
+    width: 600px;
+    height: 50px;
+}
+
+
+.list {
+    padding: 0;
+}
+
+.item {
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.descriptoin {
+
+    padding: 10px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.delete__btn {
+   align-self: flex-start;
+   background-color: brown;
+   border: none;
+   color: #fff;
+   transition: .3s;
+}
+
+.delete__btn:hover {
+    background-color: red;
+    
+ }
+
+
+.create__btn {
+    border: none;
+    transition: .3s;
+    background-color: rgb(68, 47, 255);
+    color: #fff;
+}
+
+.create__btn:hover {
+   background-color: green;
+   
+}
